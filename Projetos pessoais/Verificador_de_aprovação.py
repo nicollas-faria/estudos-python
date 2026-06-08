@@ -7,4 +7,3 @@ elif nota >= 5:
     print(f'{nome}, você está de recuperação.')
 else:
     print(f'Lamento {nome}. Você está reprovado.')
-    
