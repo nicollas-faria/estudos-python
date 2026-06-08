@@ -1,0 +1,11 @@
+n1 = input('Digite algo: ')
+
+print('é um numero? ', n1.isnumeric())
+print('é uma letra? ', n1.isalpha())
+print('é alphanumerico? ', n1.isalnum())
+print('esta minuscula? ', n1.islower())
+print('é maiusculo? ', n1.isupper())
+print('é um decimal? ', n1.isdecimal())
+print('é um digito? ', n1.isdigit())
+print('é um espaço em branco? ', n1.isspace())
+print('está capitalizada? ', n1.istitle())
