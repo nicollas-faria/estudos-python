@@ -1,0 +1,10 @@
+adjetivo1 = input('Digite um adjetivo: ')
+substantivo = input('Digite um substantivo: ')
+adjetivo2 = input('Digite um adjetivo: ')
+verbo = input('Digite um verbo: ')
+adjetivo3 = input('Digite um adjetivo: ')
+
+print(f'Hoje eu fui ao zoologico {adjetivo1}.')
+print(f'Em uma exposição, eu vi o {substantivo}.')
+print(f'O {substantivo} estava {adjetivo2} e {verbo}.')
+print(f'Eu fiquei {adjetivo3}.')
