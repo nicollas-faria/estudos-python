@@ -48,7 +48,7 @@ while True:
         valor_total += valor_primeira
         if peso > 40:
             print('Plano não compativel com o peso da carga! Você sera sujeito a uma taxa de excesso de peso.')
-            total_excesso_peso += abs(peso - executiva)
+            total_excesso_peso += abs(peso - primeira)
             valor_total += taxa_primeira
     else:
         print('Plano invalido! Escolha um plano entre "economica", "executiva" ou "primeira"!')
